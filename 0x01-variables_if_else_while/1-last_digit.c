@@ -2,30 +2,30 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-entry point
+ * main-Entry point
  * Return:0 if no error, non-zero value if error.
  */
 int main(void)
 {
 	int n;
 
-	int 1digit :
+	int digit :
 
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	1digit = n % 10;
-	if (1digit > 5)
+	digit = n % 10;
+	if (digit > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, 1digit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, digit);
 	}
-	else if (1digit == 0)
+	else if (digit == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, 1digit);
+		printf("Last digit of %d is %d and is 0\n", n, digit);
 	}
-	else if (1digit < 6 && 1digit != 0)
+	else if (digit < 6 && digit != 0)
 	{
-		printf("Last digit of %d is %d and is l;ess than 6 and not 0\n", n, 1digit);
+		printf("Last digit of %d is %d and is l;ess than 6 and not 0\n", n, digit);
 	}
 	return (0);
 }
