@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  *Main - program entry point.
- *
  *Return:0 if no error, non-zero value if error.
 */
 
