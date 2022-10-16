@@ -6,10 +6,12 @@
  *
  *Return:0 if no error, non-zero value if error.
 */
+
 int main(void)
 {
 
 	int n;
+
 	int 1;
 
 	srand(time(0));
@@ -23,9 +25,9 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, 1);
 	}
-	else if(1< 6 && 1 != 0)
+	else if (1 < 6 && 1 != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n,1);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
 	}
 	return (0);
 }
