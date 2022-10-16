@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main-program entry point.
+ *main - program entry point.
  *
  *Return:0 if no error, non-zero value if error.
 */
@@ -12,7 +12,7 @@ int main(void)
 
 	int n;
 
-	int 1;
+	int (1);
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
