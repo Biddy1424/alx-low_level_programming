@@ -2,9 +2,8 @@
 
 /**
  *main - prints the alphabet in lowercase
- *Return: Always o
+ *Return: Always 0
 */
-int main(void)
 {
 	char la;
 
