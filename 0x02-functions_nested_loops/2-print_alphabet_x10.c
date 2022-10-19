@@ -2,16 +2,26 @@
 
 /**
  * print_alphabet_x10 - prints alpha 10 times
+ * Description: print alphabet 10 times
+ * Return: void
 */
 void print_alphabet_x10(void)
 {
-	int ten;
-	char la;
+	int i = 0;
 
-	for ten = 0; ten <= 9; ten++)
+	while (i < 10)
 	{
-		for (la = 'a'; la <= 'z'; la++)
-			_putcha(la);
-		_putchar('\n');
+		char x = 'a';
+
+		while (x <= 'z')
+		{
+			_putchar(x);
+			if (x == 'z')
+			{
+				_putchar('\n');
+			}
+			x++;
+		}
+		i++;
 	}
 }
