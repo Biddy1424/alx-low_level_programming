@@ -12,4 +12,6 @@ int main(void)
 		_putchar(la);
 
 	_putchar('\n');
+
+	return (0);
 }
